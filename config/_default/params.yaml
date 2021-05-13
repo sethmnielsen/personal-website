@@ -5,7 +5,7 @@
 
 # Appearance
 
-theme: earthseth
+theme: earthsauce
 day_night: true
 font: 'minimal'
 font_size: L
@@ -37,11 +37,11 @@ email: sethnielsen64@gmail.com
   # - 'Monday 10:00 to 13:00'
   # - 'Wednesday 09:00 to 10:00'
 # appointment_url: 'https://calendly.com'
-contact_links:
-  - icon: twitter
-    icon_pack: fab
-    name: DM Me
-    link: 'https://twitter.com/Twitter'
+# contact_links:
+#   - icon: twitter
+#     icon_pack: fab
+#     name: DM Me
+#     link: 'https://twitter.com/Twitter'
   # - icon: skype
   #   icon_pack: fab
   #   name: Skype Me
@@ -74,9 +74,9 @@ address_format: en-us
 
 # Site features
 
-highlight: true
+highlight: false
 highlight_languages:
-  - r
+  - Python
 math: false
 diagram: false
 privacy_pack: false
@@ -93,8 +93,8 @@ show_related:
   page: false
   post: true
   project: true
-  publication: true
-  event: true
+  publication: false
+  event: false
 reading_time: true
 section_pager: false
 docs_section_pager: true
@@ -155,4 +155,4 @@ cms:
   local_backend: false
 icon:
   pack:
-    ai: true
+    ai: false
