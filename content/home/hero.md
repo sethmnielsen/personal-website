@@ -2,10 +2,11 @@
 widget: hero
 headless: true
 weight: 10
-title: Seth Nielsen's Webpage
+title: Seth Nielsen
+subtitle: '**Robotics Engineer**'
 hero_media:
   # image: sethprofilepic.jpg
-  width: 50%
+  width: 100%
 cta:
   label: '**About Me**'
   url: "/#about"
@@ -13,7 +14,7 @@ cta_alt:
   label: 'See my projects'
   url: "/#projects"
 design:
-  columns: '1' # Choose how many columns the section has. Valid values: 1 or 2.
+  columns: '2' # Choose how many columns the section has. Valid values: 1 or 2.
   background:
     image: pfeiff2.jpg
     image_size: cover # `cover` (default), `contain`, or `actual`
@@ -32,6 +33,6 @@ advanced:
   css_class:
 ---
 
-**The FREE, Hugo-based open source website builder and template trusted by 500,000+ sites.**
+Hey! I'm Seth, and I like to live with intention.
 
-**Build anything with widgets** - from landing pages, knowledge bases, and courses to academic resumés, conferences, and tech blogs.
+I don't just **love** engineering, I *do* engineering.

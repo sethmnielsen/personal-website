@@ -59,3 +59,12 @@ highlight_name: false
 My research involves navigation and perception in unstructured environments, with a focus on autonomous landing of multirotors and eVTOL aircraft. I also have experience in building photorealistic software-in-the-loop simulations for UAVs.
 
 {{< icon name="download" pack="fas" >}}{{< staticref "media/sethnielsen_resume.pdf" "newtab" >}}Click here{{< /staticref >}} to see my résumé.
+
+Here are a few video highlights of my accomplishments.
+
+Fully autonomous search, detect and approach for final goal marker:
+{{< youtube cOX-QPgbB50 >}}
+
+Flight of an eVTOL aircraft using a modded version of AirSim:
+
+{{< youtube 5YMXq0EfEog >}}

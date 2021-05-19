@@ -10,6 +10,9 @@
     {{ with $page.Title }}
       <h1 class="hero-title">{{ . | markdownify }}</h1>
     {{ end }}
+    {{ with $page.Params.subtitle }}
+      <h2 class="hero-subtitle">{{ . | markdownify }}</h2>
+    {{ end }}
 
     {{ with $page.Content }}
       <div class="hero-lead">{{ . }}</div>
@@ -61,13 +64,13 @@
   {{ $media := $page.Params.hero_media }}
   {{ if $media }}
   {{ $style_img := "" }}
-  
+
   {{/*  Example in setting position style  */}}
   {{/*  {{ with $media.image_position }}  */}}
   {{/*  Allow valid CSS positions including left, center, and right.  */}}
   {{/*  {{ $style_img = printf "%sposition: %s;" $style_img . }}  */}}
   {{/*  {{ end }}  */}}
-  
+
   <div class="col-12 mx-auto col-md-6 {{if $page.Params.design.flip}}order-md-first{{end}} hero-media" {{with $style_img}}style="{{. | safeCSS}}"{{end}}>
     {{ if $media.image }}
       {{- $image := ($page.Parent.Resources.ByType "image").GetMatch $page.Params.hero_media.image -}}
