@@ -21,8 +21,12 @@
   {{ $summary = $item.Summary }}
 {{ end }}
 
+{{ $padding_summary := "pl-4" }}
+{{ $padding_image := "pr-4" }}
 {{ $order := "" }}
 {{ if and ($widget.Params.design.flip_alt_rows | default true) (not (modBool .index 2)) }}
+  {{ $padding_summary = ""}}
+  {{ $padding_image := "pl-4" }}
   {{ $order = "order-md-2" }}
 {{ end }}
 
@@ -35,7 +39,7 @@
 
 <div class="col-lg-12 project-item isotope-item {{ $js_tag_classes | safeHTMLAttr }}">
   <div class="row align-items-center">
-    <div class="col-12 col-md-6">
+    <div class="col-12 col-md-6 {{$padding_summary}}">
       <div class="section-subheading article-title mb-0 mt-0">
         {{- if $do_link}}<a href="{{ $link }}" {{ $target | safeHTMLAttr }}>{{end -}}
         {{ $item.Title | markdownify | emojify }}
@@ -53,7 +57,7 @@
       </div>
 
     </div>
-    <div class="col-12 col-md-6 order-first {{$order}}">
+    <div class="col-12 col-md-6 {{$padding_image}} order-first {{$order}}">
       <div class="row justify-content-center">
         {{ $resource := ($item.Resources.ByType "image").GetMatch "*featured*" }}
         {{ with $resource }}
