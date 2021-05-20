@@ -1,0 +1,93 @@
+/*************************************************
+ *  Hero Widget
+ **************************************************/
+.hero-title {
+  font-size: 3.2rem;
+  margin-top: 0;
+  line-height: 1;
+}
+
+.hero-subtitle {
+  // font-size: 3.2rem;
+  margin-top: 0.0rem;
+  line-height: 1.5;
+}
+
+.hero-lead {
+  // max-width: 768px;
+  font-size: 1.35rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.hero-lead p {
+  margin-bottom: 0.0rem;
+}
+
+.wg-hero.dark .hero-title,
+.wg-hero.dark .hero-subtitle,
+.wg-hero.dark .hero-lead,
+.wg-hero.dark .hero-cta-alt,
+.wg-hero.dark .hero-note > * {
+  color: #fff;
+
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.7);
+
+  /* Uncomment to standout on complicated backgrounds. */
+}
+
+
+/*************************************************
+ *  Featurette Widget
+ **************************************************/
+
+.featurette {
+  font-size: 0.7rem;
+  line-height: 1.3;
+  color: #555;
+  text-align: center;
+}
+
+.featurette .section-subheading {
+  margin-top: 0;
+  margin-bottom: 5px;
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: #333;
+}
+
+.featurette-icon {
+  display: block;
+  width: 100%;
+  color: $sta-primary;
+  font-size: 3.5rem;
+  text-align: center;
+}
+
+/*************************************************
+ * Experience
+ **************************************************/
+
+.experience .card-text,
+.experience .card-text p {
+  color: #000 !important;
+  font-size: 0.85rem !important;
+}
+
+/*************************************************
+ *  Contact
+ **************************************************/
+
+.wg-contact li {
+  padding-top: 1.0rem; /* Align text with bottom of `fa-2x` icon. */
+  margin-bottom: 0.3rem;
+}
+
+
+/*************************************************
+ *  Accomplishments
+ **************************************************/
+
+#accomplishments h1 {
+  font-size: 1.6rem;
+}
