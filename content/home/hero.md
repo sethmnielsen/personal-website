@@ -33,6 +33,6 @@ advanced:
   css_class:
 ---
 
-Hey! I'm Seth, and I like to live with intention.
+<!-- Hey! I'm Seth, and I like to live with intention. -->
 
-I don't just **love** engineering, I *do* engineering.
+<!-- I don't just **love** engineering, I *do* engineering. -->
