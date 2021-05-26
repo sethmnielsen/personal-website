@@ -58,7 +58,7 @@ highlight_name: false
 
 I'm an MS student at the BYU MAGICC Lab (**M**ulti **Ag**ent **I**ntelligent Coordination and Control Lab) under [Dr. Randy Beard](https://scholar.google.com/citations?user=cLSfhaoAAAAJ&hl=en). My current degree is in Electrical and Computer Engineering, and I earned a Mechanical Engineering undergraduate degree with a minor in Computer Science, all of which has given me a very deep understanding of how the worlds of electrical, mechanical, and software engineering interface with each other to create a fully functional, highly performant solution. Though my engineering skills span all three areas, the densest cluster resides in the software side - both in simulation and on real hardware. 
 
-My experience includes internships, engineering competitions, research fellowships, and personal projects. I love working on teams to create things that *actually work* in the real world. 
+My experience includes internships, engineering competitions, research fellowships, and personal projects. I love working on teams to create things that actually work in the real world.
 
 At the MAGICC Lab, my research involves navigation and perception in unstructured environments, with a focus on autonomous landing of multirotors and eVTOL aircraft. I also have experience in building photorealistic software-in-the-loop simulations for UAVs.
 
