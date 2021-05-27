@@ -63,9 +63,9 @@
     {{ $style_bg = printf "%sfilter: brightness(%s);" $style_bg (string $bg.image_darken) }}
   {{ end }}
 
-  {{ if $bg.image_blur }}
-    {{ $style_bg = printf "%sfilter: blur(%s);" $style_bg (string $bg.image_blur) }}
-  {{ end }}
+  {{/*  {{ if $bg.image_blur }}  */}}
+    {{/*  {{ $style_bg = printf "%sfilter: blur(%s);" $style_bg (string $bg.image_blur) }}  */}}
+  {{/*  {{ end }}  */}}
 
   {{ with $st.Params.design.spacing.padding }}
     {{ $style_pad := printf "padding: %s;" (delimit . " ") }}
