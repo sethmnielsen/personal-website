@@ -37,4 +37,4 @@ Hey! I'm Seth.
 
 I'm an engineer with a passion for writing software to make things perform in the physical world.
 
-I love the challenge of transforming big ideas into full solutions that **actually work**.
+I love the challenge of transforming big ideas into complete solutions that **actually work**.
