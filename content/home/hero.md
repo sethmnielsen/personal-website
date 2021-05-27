@@ -25,7 +25,7 @@ design:
     # Customize section spacing: order is top, right, bottom, left.
     padding:
       - 100px
-      - 140px
+      - 120px
       - 200px
       - 130px
 advanced:
@@ -37,4 +37,4 @@ Hey! I'm Seth.
 
 I'm an engineer with a passion for writing software to make things perform in the physical world.
 
-I love the challenge of transforming big ideas into something that **actually works**.
+I love the challenge of transforming big ideas into full solutions that **actually work**.

@@ -4,7 +4,7 @@
 
 {{ if $page.Params.hero_media }}
 <div class="row">
-  <div class="col-12 col-md-6 text-center text-md-left">
+  <div class="col-12 col-md-8 col-lg-5 text-center text-md-left">
 {{ end }}
 
     {{ with $page.Title }}
@@ -71,7 +71,7 @@
   {{/*  {{ $style_img = printf "%sposition: %s;" $style_img . }}  */}}
   {{/*  {{ end }}  */}}
 
-  <div class="col-12 mx-auto col-md-6 {{if $page.Params.design.flip}}order-md-first{{end}} hero-media" {{with $style_img}}style="{{. | safeCSS}}"{{end}}>
+  <div class="col-12 mx-auto col-md-4 col-lg-7 {{if $page.Params.design.flip}}order-md-first{{end}} hero-media" {{with $style_img}}style="{{. | safeCSS}}"{{end}}>
     {{ if $media.image }}
       {{- $image := ($page.Parent.Resources.ByType "image").GetMatch $page.Params.hero_media.image -}}
       {{- if not $image -}}
