@@ -21,12 +21,16 @@
   {{ $summary = $item.Summary }}
 {{ end }}
 
-{{ $padding_summary := "pl-4" }}
-{{ $padding_image := "pr-4" }}
+{{ $padding_summary := "pl-md-3" }}
+{{ $padding_image := "pr-md-4" }}
+{{/*  {{ $padding_summary := "pl-md-4 justify-content-start" }}  */}}
+{{/*  {{ $padding_image := "pr-md-4 justify-content-start" }}  */}}
 {{ $order := "" }}
 {{ if and ($widget.Params.design.flip_alt_rows | default true) (not (modBool .index 2)) }}
   {{ $padding_summary = ""}}
-  {{ $padding_image := "pl-4" }}
+  {{ $padding_image := "pl-md-4" }}
+  {{/*  {{ $padding_summary = "justify-content-end"}}  */}}
+  {{/*  {{ $padding_image := "pl-md-4 justify-content-end" }}  */}}
   {{ $order = "order-md-2" }}
 {{ end }}
 
@@ -58,7 +62,7 @@
 
     </div>
     <div class="col-12 col-md-6 {{$padding_image}} order-first {{$order}}">
-      <div class="row justify-content-center">
+      <div class="row justify-content-end">
         {{ $resource := ($item.Resources.ByType "image").GetMatch "*featured*" }}
         {{ with $resource }}
         {{ $image := .Resize "540x" }}

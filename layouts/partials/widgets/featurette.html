@@ -3,7 +3,7 @@
 
 <div class="row featurette">
   {{ with $page.Title }}
-  <div class="col-md-12 section-heading">
+  <div class="col-md-12 mb-3 section-heading">
     <h1>{{ . | markdownify | emojify }}</h1>
     {{ if $page.Params.subtitle }}<p>{{ $page.Params.subtitle | markdownify | emojify }}</p>{{ end }}
   </div>
@@ -21,7 +21,7 @@
   {{ if in (slice "fab" "fas" "far" "fal") $pack }}
     {{ $pack_prefix = "fa" }}
   {{ end }}
-  <div class="col-6 col-sm-4 col-md-2">
+  <div class="col-4 col-md-4 col-lg-2">
     {{ with .icon }}
     <div class="featurette-icon">
       {{- if eq $pack "emoji" -}}

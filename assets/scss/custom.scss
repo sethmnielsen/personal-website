@@ -74,10 +74,14 @@ a.btn:hover {
 /*************************************************
  *  Projects
  **************************************************/
-// .project-showcase .row .justify-content-center {
 .project-showcase img {
   max-height: 380px;
-  margin-bottom: 0.5rem;
+}
+
+@include media-breakpoint-down(sm) {
+  .project-showcase img {
+    margin-bottom: 0.5rem;
+  }
 }
 
 .project-showcase .project-item {
@@ -85,7 +89,7 @@ a.btn:hover {
 }
 
 /*************************************************
- *  Featurette Widget
+ *  Featurette Widget (Skills)
  **************************************************/
 .featurette {
   font-size: 0.7rem;

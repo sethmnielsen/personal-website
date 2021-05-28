@@ -46,9 +46,9 @@ design:
     # Customize section spacing: order is top, right, bottom, left.
     padding:
       - 50px
-      - '0'
+      - 5%
       - 50px
-      - '0'
+      - 5%
 
 # Uncomment to use emoji icons.
 #- icon: ":smile:"
