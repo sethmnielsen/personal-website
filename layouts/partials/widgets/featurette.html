@@ -21,7 +21,7 @@
   {{ if in (slice "fab" "fas" "far" "fal") $pack }}
     {{ $pack_prefix = "fa" }}
   {{ end }}
-  <div class="col-12 col-sm-4 col-md-2">
+  <div class="col-6 col-sm-4 col-md-2">
     {{ with .icon }}
     <div class="featurette-icon">
       {{- if eq $pack "emoji" -}}
