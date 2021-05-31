@@ -1,7 +1,7 @@
 ---
 title: Self-Parking Chair
 summary: |2-
-  Designed and built prototype of robotic self-parking chair capable of moving a 180-lb person. (Image: chair base)
+  Designed and built prototype of robotic self-parking chair capable of moving a 200-lb person. (Image: chair base)
 tags:
 - Robotics
 date: "2017-12-01"
@@ -13,28 +13,15 @@ image:
   caption: Mobile chair base
   focal_point: Smart
   noborder: true
-
-# links:
-# - icon: twitter
-#   icon_pack: fab
-#   name: Follow
-#   url: https://twitter.com/georgecushen
-# url_code: ""
-# url_pdf: ""
-# url_slides: ""
-# url_video: ""
-
-# Slides (optional).
-#   Associate this project with Markdown slides.
-#   Simply enter your slide deck's filename without extension.
-#   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
-#   Otherwise, set `slides = ""`.
-# slides: example
 ---
-Designed and built prototype of robotic self-parking chair capable of moving a 180-lb person.
+Designed and built prototype of robotic self-parking chair capable of moving a 200-pound person.
 
-Produced mechanical design in CAD and manufactured it, and designed and built the circuitry.
+Designed the mechanical and electrical components, then manufactured them.
 
 Wrote high-level and low-level software for onboard computer and microcontrollers.
+
+Conducted tests, analyzed the prototype's performance, discovered a design flaw and made a completely new design.
+
+Built and tested a second prototype which satisfied company’s goals for mobility, load capacity and stability.
 
 {{< figure src="chair_model.png" caption="CAD model of chair design" >}}

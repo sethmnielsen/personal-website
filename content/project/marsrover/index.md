@@ -1,9 +1,9 @@
 ---
 title: University Rover Challenge
 summary: |2-
-  Lead autonomous navigation engineer for the BYU Mars Rover Team: the only team to complete the final, fully autonomous navigation portion of task.
-
-  I was one of the lead operators of the rover throughout development, testing, and competition; implemented much of the team's user interface and networking software.
+  Lead engineer of autonomous navigation for the BYU Mars Rover Team: the only team to complete the final, fully autonomous navigation portion of task. 
+  
+  I was a primary operator of the rover in the competition and throughout development, and I wrote the navigation and sensing software that guided the rover to the goal markers.
 tags:
 - Robotics
 date: "2018-06-02"
@@ -33,14 +33,19 @@ image:
 # slides: example
 ---
 
+Lead engineer of autonomous navigation for the BYU Mars Rover Team, a team of 23 individuals.
+
+Our rover successfully traversed the final, fully autonomous stage of the task, which no other rover of the 35 international teams was able to do.
+
+I was a primary operator of the rover in the competition and throughout development, and I wrote the navigation and sensing software that guided the rover to the goal markers. I wrote the code for nearly all UI involved in rover operation, including the networking backend.
+
+Programmed a potential field algorithm for obstacle detection and avoidance using a laser scanner which was successful during the competition.
+
+I trained a deep neural network to detect goal markers and adapted it for real-time inference on the rover. I took the pictures which became the training dataset and I got inference working on an Nvidia Jetson TX2. It achieved nearly perfect accuracy in the competition.
+
+Implemented GPS waypoint following and vision-based controllers which ran on the rover to fulfill the requirement of arriving within 2-meter radius of the goal marker.
+
+## Video
+See this video showing the final detection, approach, and recognition of arrival for the goal marker during the purely autonomous stage of the task, which no other rover acheived.
+
 {{< youtube cOX-QPgbB50 >}}
-
-Lead autonomous navigation engineer for the BYU Mars Rover Team: the only team to complete the final, fully autonomous navigation portion of task.
-
-One of the lead operators of the rover throughout development, testing, and competition; implemented much of the team's user interface and networking software.
-
-Wrote code for state machine of obstacle detection and avoidance using lidar and potential field avoidance algorithm.
-
-Trained deep neural network to detect goal markers and adapted it for real-time inference on rover, achieved nearly perfect accuracy during competition.
-
-Implemented controller for GPS waypoint following and vision-based controller to approach within required 2 m radius of goal marker.

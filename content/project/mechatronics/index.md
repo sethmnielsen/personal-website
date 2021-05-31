@@ -31,15 +31,12 @@ image:
 # slides: example
 ---
 
-Wrote the control software in C for PIC
-microcontroller.
+Wrote the control software in C for PIC microcontroller.
 
-Robot detected LED light
-indicating the “active” goal corner.
+Robot detected LED light indicating the “active” goal corner.
 
 Shot 6 ping pong balls at a time.
 
-Returned to collect 6 more balls,
-then repeat.
+Returned to collect 6 more balls, then repeat.
 
 Scored 16 shots in final competition.
