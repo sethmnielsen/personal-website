@@ -30,9 +30,9 @@ experience:
     date_start: '2018-05-01'
     date_end: ''
     description: |2-
+      * Created a simulator from scratch that combines high-end graphics with real autopilot software to produce a high-fidelity SITL flight and camera simulation for UAVs, now used by other students for research and adopted by a university course to teach vision-based quadrotor control
+      * Built a completely new vehicle type - eVTOL aircraft - for Microsoft AirSim, a simulator for multirotors, including dynamics model, control inputs, animated mesh, and PX4 autopilot integration in photorealistic city environment powered by Unreal Engine
       * Investigated the use of various sensors in the autonomous landing of multirotors on arbitrary ships at sea and of eVTOL aircraft in urban environments
-      * Extended Microsoft AirSim, a simulator for multirotors, to include tiltrotor eVTOL aircraft, including dynamics model, control inputs, animated mesh, and PX4 autopilot integration in photorealistic city environment
-      * Created a software-in-the-loop simulation tool that combines high-end graphics with real autopilot software to produce a high-fidelity camera and physics simulator, used by other students for research and in a BYU course on quadrotor control
 
   - title: Robotics Internship — Lead, full ownership of project
     company: Hall Labs
@@ -42,9 +42,11 @@ experience:
     date_start: '2017-05-01'
     date_end: '2017-12-01'
     description: |2-
-      * Designed and built prototype of robotic self-parking chair capable of moving a 180-lb person
-      * Produced mechanical design in CAD and manufactured it, and designed and built the circuitry
+      * Designed and built prototype of robotic self-parking chair capable of moving a 200-lb person
+      * Designed the mechanical and electrical components, then manufactured them
       * Wrote high-level and low-level software for onboard computer and microcontrollers
+      * Conducted tests, analyzed performance, discovered design flaw and made a completely new design 
+      * Built and tested second prototype which satisfied company's goals for mobility, load capacity and stability
 
   - title: Summer Undergraduate Research Fellowship — Solid Propellants
     company: Purdue University

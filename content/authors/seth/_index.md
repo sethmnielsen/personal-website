@@ -62,7 +62,7 @@ My experience includes internships, engineering competitions, research fellowshi
 
 At the MAGICC Lab, my research involves navigation and perception in unstructured environments, with a focus on autonomous landing of multirotors and eVTOL aircraft. I also have experience in building photorealistic software-in-the-loop simulations for UAVs.
 
-{{< icon name="download" pack="fas" >}}{{< staticref "media/sethnielsen_resume.pdf" "newtab" >}}Click here{{< /staticref >}} to see my résumé.
+{{< icon name="download" pack="fas" >}}{{< staticref "media/sethnielsen_resume.pdf" "newtab" >}}Click here{{< /staticref >}} to see my resume.
 
 <h2>Cool Video Highlights</h2>
 
