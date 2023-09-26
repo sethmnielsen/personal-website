@@ -33,8 +33,8 @@ advanced:
   css_class:
 ---
 
-Hey! I'm Seth.
+I'm an engineer with a passion for the intersection of software and the physical world.
 
-I'm an engineer with a passion for writing software that performs in the physical world.
+My journey has been defined by turning complex ideas into functional, real-world solutions.
 
-I love the challenge of transforming big ideas into complete solutions that **actually work**.
+This space showcases projects where I've pushed boundaries and developed complete, end-to-end solutions.
