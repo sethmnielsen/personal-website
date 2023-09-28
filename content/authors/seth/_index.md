@@ -69,14 +69,11 @@ In my work experience, I've ventured into aerospace, where precision and reliabi
 Here are a few video highlights of my accomplishments.
 
 At Zero Home, I wrote the software for a people-tracking algorithm and designed an array of 50+ radars throughout the home to track where any number of people are in the home at any given time. I also wrote the automations engine that commands lights, sound, touchscreens, and shades as people move about the home. The following videos showcase different scenarios of the automations engine in action:
-
 {{< youtube HKs0Zzlrcvg >}}
-
 {{< youtube _PPixRdqFoI >}}
 
 At the University Rover Challenge, I was the primary engineer for the Autonomous Traversal Task. See my team's rover perform a fully autonomous search, detect and approach for the final goal marker, achieving first place in the task:
 {{< youtube cOX-QPgbB50 >}}
 
 Watch the flight of an eVTOL aircraft controlled by PWM commands in a modded version of Microsoft AirSim, for which I was the principal designer:
-
 {{< youtube 5YMXq0EfEog >}}
