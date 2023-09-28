@@ -22,13 +22,25 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
+  - title: Guidance, Navigation, and Control Engineer II
+    company: Northrop Grumman
+    company_url: 'https://www.northropgrumman.com/'
+    company_logo: ng
+    location: Chandler, AZ
+    date_start: '2021-11-01'
+    date_end: '2022-09-01'
+    description: |2-
+      * Developed autonomous flight safety systems to detect anomalies and initiate auto-termination procedures
+      * Created a tool to convert telemetry messages into raw sensor data to play back into simulations for flight tests that have failed
+      * Extended software for outputting sensor data to binary to work with a new IMU and made a Python tool to parse and visualize the binary data
+
   - title: Graduate Research Assistant
     company: BYU MAGICC Lab
     company_url: 'https://magicc.byu.edu/content/general-information'
     company_logo: magicc
     location: Provo, UT
     date_start: '2018-05-01'
-    date_end: ''
+    date_end: '2021-10-01'
     description: |2-
       * Created a simulator from scratch that combines high-end graphics with real autopilot software to produce a high-fidelity SITL flight and camera simulation for UAVs, now used by other students for research and adopted by a university course to teach vision-based quadrotor control
       * Built a completely new vehicle type - eVTOL aircraft - for Microsoft AirSim, a simulator for multirotors, including dynamics model, control inputs, animated mesh, and PX4 autopilot integration in photorealistic city environment powered by Unreal Engine

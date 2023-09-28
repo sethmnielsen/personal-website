@@ -25,6 +25,10 @@ feature:
   icon_pack: custom
   name: Python
 - description: ""
+  icon: go_logo
+  icon_pack: custom
+  name: Go
+- description: ""
   icon: rust_logo
   icon_pack: custom
   name: Rust

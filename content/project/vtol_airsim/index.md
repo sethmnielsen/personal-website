@@ -1,7 +1,7 @@
 ---
 title: vtol-AirSim
 summary: |2-
-  Built a completely new vehicle type — eVTOL aircraft — for Microsoft AirSim, a simulator for multirotors, including dynamics model, control inputs, animated mesh, and PX4 autopilot integration in photorealistic city environment powered by Unreal Engine.
+  Introduced a new eVTOL vehicle type for Microsoft AirSim, a simulator for multirotors, including dynamics model, control inputs, animated mesh, and PX4 autopilot integration in a realistic city environment powered by Unreal Engine.
 tags:
 - Robotics
 date: "2021-05-01"
