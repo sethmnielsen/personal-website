@@ -22,6 +22,19 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
+  - title: Software Engineer
+    company: Zero Home
+    company_url: 'https://www.sethnielsen.me'
+    company_logo: zero
+    location: Pleasant Grove, UT
+    date_start: '2022-09-01'
+    date_end: ''
+    description: |2-
+      * Engineered and launched from concept to completion the end-to-end sensing and automation platform for a cutting-edge startup specializing in the complete design and implementation of smart homes
+      * Designed an innovative people-tracking algorithm utilizing an array of 50+ radars and led the architectural design for their optimal placement throughout the home
+      * Developed a comprehensive automation software for real-time control of home systems, including lighting, sound, shades, and touchscreens based on human presence and movements
+      * Spearheaded the development of a live, full-scale house prototype that showcased real-time operations, leading to commitments from multiple investors totaling 4 million dollars
+
   - title: Guidance, Navigation, and Control Engineer II
     company: Northrop Grumman
     company_url: 'https://www.northropgrumman.com/'
