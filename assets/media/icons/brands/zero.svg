@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   width="100%"
-   height="100%"
-   viewBox="0 0 473 764"
+   width="764"
+   height="764"
+   viewBox="0 0 764 764"
    version="1.1"
    xml:space="preserve"
-   style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"
+   style="clip-rule:evenodd;fill-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2"
    id="svg2"
-   sodipodi:docname="zero logo white.svg"
+   sodipodi:docname="zero.svg"
    inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg"><defs
    id="defs2"><filter
-     style="color-interpolation-filters:sRGB;"
+     style="color-interpolation-filters:sRGB"
      inkscape:label="Invert"
      id="filter6"
      x="0"
@@ -58,10 +58,10 @@
    inkscape:window-y="160"
    inkscape:window-maximized="1"
    inkscape:current-layer="g2" />&#10;    <g
-   transform="matrix(1,0,0,1,-1129.91,-642.212)"
+   transform="translate(-1129.91,-642.212)"
    id="g2">&#10;        <g
-   transform="matrix(0.864694,0,0,0.864694,184.929,139.084)"
+   transform="matrix(0.864694,0,0,0.864694,334.929,139.084)"
    id="g1"
    style="filter:url(#filter6)">&#10;            <path
-   d="M1365.88,581.857C1516.67,581.857 1638.92,705.042 1638.92,857.017L1638.92,1189.76C1638.92,1341.73 1516.67,1464.91 1365.88,1464.91C1215.1,1464.91 1092.85,1341.73 1092.85,1189.76L1092.85,857.017C1092.85,705.042 1215.1,581.857 1365.88,581.857ZM1493.75,1189.76L1493.75,857.017C1493.75,785.83 1436.51,728.106 1365.88,728.106C1295.25,728.106 1238.01,785.83 1238.01,857.017L1238.01,1189.76C1238.01,1260.94 1295.25,1318.67 1365.88,1318.67C1436.51,1318.67 1493.75,1260.94 1493.75,1189.76Z"
+   d="m 1365.88,581.857 c 150.79,0 273.04,123.185 273.04,275.16 v 332.743 c 0,151.97 -122.25,275.15 -273.04,275.15 -150.78,0 -273.03,-123.18 -273.03,-275.15 V 857.017 c 0,-151.975 122.25,-275.16 273.03,-275.16 z m 127.87,607.903 V 857.017 c 0,-71.187 -57.24,-128.911 -127.87,-128.911 -70.63,0 -127.87,57.724 -127.87,128.911 v 332.743 c 0,71.18 57.24,128.91 127.87,128.91 70.63,0 127.87,-57.73 127.87,-128.91 z"
    id="path1" />&#10;        </g>&#10;    </g>&#10;</svg>
