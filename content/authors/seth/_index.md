@@ -56,17 +56,23 @@ social:
 highlight_name: false
 ---
 
-I'm an MS student at the BYU MAGICC Lab (**M**ulti **Ag**ent **I**ntelligent Coordination and Control Lab) under [Dr. Randy Beard](https://scholar.google.com/citations?user=cLSfhaoAAAAJ&hl=en). My current degree is in Electrical and Computer Engineering, and I earned a Mechanical Engineering undergraduate degree with a minor in Computer Science, all of which has given me a very deep understanding of how the worlds of electrical, mechanical, and software engineering interface with each other to create a fully functional, highly performant solution. Though my engineering skills span all three areas, the densest cluster resides in the software side - both in simulation and on real hardware. 
+I have an interdisciplinary background that includes an undergraduate degree in Mechanical Engineering with a Computer Science minor and an MS in Electrical Engineering, where I performed research in navigation and perception in unstructured environments, with a focus on autonomous landing of multirotors and eVTOL aircraft.
 
-My experience includes internships, engineering competitions, research fellowships, and personal projects. I love working on teams to create things that actually work in the real world.
+My experience includes industry work at a large company and a seed stage startup, internships, engineering competitions, research fellowships, and personal projects. I love working on teams to create things that perform in the real world.
 
-At the MAGICC Lab, my research involves navigation and perception in unstructured environments, with a focus on autonomous landing of multirotors and eVTOL aircraft. I also have experience in building photorealistic software-in-the-loop simulations for UAVs.
+In my work experience, I've ventured into aerospace, where precision and reliability are paramount. Subsequently, I worked at a cutting-edge, fast-paced smart home startup where I built the entire platform for sensing and the automation engine from the ground up.
 
 {{< icon name="download" pack="fas" >}}{{< staticref "media/sethnielsen_resume.pdf" "newtab" >}}Click here{{< /staticref >}} to see my resume.
 
-<h2>Cool Video Highlights</h2>
+<h2>Video Highlights</h2>
 
-Here are a few video highlights of my accomplishments. 
+Here are a few video highlights of my accomplishments.
+
+At Zero Home, I wrote the software for a people-tracking algorithm and designed an array of 50+ radars throughout the home to track where any number of people are in the home at any given time. I also wrote the automations engine that commands lights, sound, touchscreens, and shades as people move about the home. The following videos showcase different scenarios of the automations engine in action:
+
+{{< youtube HKs0Zzlrcvg >}}
+
+{{< youtube _PPixRdqFoI >}}
 
 At the University Rover Challenge, I was the primary engineer for the Autonomous Traversal Task. See my team's rover perform a fully autonomous search, detect and approach for the final goal marker, achieving first place in the task:
 {{< youtube cOX-QPgbB50 >}}

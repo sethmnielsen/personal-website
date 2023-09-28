@@ -33,7 +33,7 @@ advanced:
   css_class:
 ---
 
-I'm an engineer with a passion for the intersection of software and the physical world.
+I thrive at the intersection of software and the physical world.
 
 My journey has been defined by turning complex ideas into functional, real-world solutions.
 

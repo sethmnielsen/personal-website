@@ -4,3 +4,5 @@ exampleSite/
 resources/
 public/
 other/
+
+.hugo_build.lock
